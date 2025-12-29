@@ -1,7 +1,9 @@
+import Heading from "../../../components/Heading";
+
 export default function Home() {
     return (
         <>
-            <h1 className="text-lg font-bold">Latihan Route</h1>
+                <Heading title="Latihan Route" />
             <p>Latihan route untuk projek Next.js</p>
         </>
     );

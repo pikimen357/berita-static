@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Heading from "../../components/Heading";
 
 export default function Home() {
     return (
         <>
-            <h1>This is Blog</h1>
+            <Heading title="This is Blog" />
             <p>List of blog</p>
             <ul>
                 <li>

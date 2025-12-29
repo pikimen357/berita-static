@@ -1,7 +1,9 @@
+import Heading from "../../../components/Heading";
+
 export default function Home() {
     return (
         <>
-            <h1>Belajar Next JS</h1>
+            <Heading title="Belajar Next JS" />
             <p>Kita akan belajar next js bersama pakarnya</p>
         </>
     );
