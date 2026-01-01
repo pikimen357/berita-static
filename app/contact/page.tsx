@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <>
             <Heading title="Contact" />
-            <p>Please Contact us.</p>
+            <p className="font-roboto">Please Contact us.</p>
         </>
     );
 }

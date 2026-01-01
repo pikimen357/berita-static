@@ -1,4 +1,5 @@
-import Navbar from "../components/Navbar";
+import Navbar from "@/components/Navbar";
+import { roboto } from "./fonts";
 
 import './globals.css';
 
@@ -9,7 +10,7 @@ interface LayoutProps {
 
 export  default function Layout({ children } : LayoutProps) {
     return (
-        <html lang="en">
+        <html lang="en" className={roboto.variable}>
             <head>
                 <title>Learn Next.js Fundamental</title>
             </head>

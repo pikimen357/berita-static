@@ -1,8 +1,21 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
-body {
-    font-family: 'Courier New', Courier, monospace;
+/* Pastikan plugin typography di-import di sini untuk v4 */
+@plugin "@tailwindcss/typography";
+
+@theme {
+  /* Anda juga bisa mendefinisikan font langsung di sini jika di config tidak terbaca */
+  --font-roboto: var(--font-roboto);
 }
+
+:root {
+  /* Memastikan font default adalah Roboto */
+  font-family: var(--font-roboto), ui-sans-serif, system-ui;
+}
+
+/* body {
+    font-family: 'Courier New', Courier, monospace; 
+} */
 
 /* Footer Styles */
 footer {
