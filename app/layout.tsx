@@ -11,9 +11,9 @@ interface LayoutProps {
 export  default function Layout({ children } : LayoutProps) {
     return (
         <html lang="en" className={roboto.variable}>
-            <head>
+            {/* <head>
                 <title>Learn Next.js Fundamental</title>
-            </head>
+            </head> */}
             <body className="flex flex-col min-h-screen bg-gray-50">
 
                 <header className="bg-white shadow-md sticky top-0 z-50">

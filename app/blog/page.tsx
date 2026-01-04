@@ -1,6 +1,12 @@
 import Heading from "@/components/Heading";
 import PostCard from "@/components/PostCard";
 import { getAllPosts } from "@/lib/post";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Berita",
+    description: "Belajar Next.js Fundamental dari dasar hingga mahir",
+};
 
 interface BlogPost {
     title: string;
