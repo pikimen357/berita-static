@@ -1,8 +1,13 @@
 import ShareLinkButton from "@/components/ShareLinkButton";
 import Heading from "@/components/Heading";
-import { getPost } from "@/lib/post";
+import { getAllPosts, getPost, getSlugs } from "@/lib/post";
 import { Metadata } from "next";
 import { JSX } from "react";
+
+export async function generateStaticParams(): Promise<Array<{ slug: string }>> {
+    const slugs = await getSlugs();
+    return slugs.map((slug) => ({ slug }));
+}
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const { slug } = await props.params;

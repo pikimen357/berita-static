@@ -110,3 +110,13 @@ async function toPost(item: StrapiPost, isFullPost: boolean = false): Promise<Po
         ...(isFullPost && { body: htmlBody, rate: item.rate })
     };
 }
+
+export async function getSlugs(): Promise<string[]> {
+    const data = await fetchPosts({
+        fields : ['slug'],
+        sort: ['publishedAt:desc'],
+        pagination: { pageSize: 100}
+    });
+
+    return data.map((item: StrapiPost) => item.slug);
+}
