@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": 10,
+      "documentId": "t7wi4zpoarm5orsrko0is9bt",
+      "slug": "berita-kebarakan",
+      "title": "Berita kebarakan",
+      "description": "kebakaran api ",
+      "publishedAt": "2026-01-06T07:53:13.091Z",
+      "author": "marimin",
+      "body": "Kebakaran terjadi di gedung putih yang membuat heboh warga sekitar",
+      "image": {
+        "id": 3,
+        "documentId": "c0ocz7p65v2z1n0xnq9vqdjt",
+        "url": "/uploads/pecel_505031ef50.jpg"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 1
+    }
+  }
+}

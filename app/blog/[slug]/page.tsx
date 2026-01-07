@@ -40,9 +40,9 @@ export default async function Home(props: { params: Promise<{ slug: string }> })
             <img src={post.image}      className="rounded-lg shadow-md mb-5"
                 width={600} height={400} />
             <article 
-                dangerouslySetInnerHTML={{ __html: post.html }} 
+                dangerouslySetInnerHTML={{ __html: post.body }} 
                 className="prose font-roboto max-w-none" 
-                ></article>
+            ></article>
         </>
     );
 }
