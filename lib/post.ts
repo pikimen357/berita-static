@@ -10,7 +10,7 @@ const apiUrl = baseUrl + 'api';
 export async function getPost(slug: string) : Promise<{ slug: string; title: string; image: string; description: string; date: string; author: string; body: string; rate: string }> {
 
     const  url: string  =  `${apiUrl}/posts` + '?' + qs.stringify({
-        // filters : { slug: { $eq: slug } },
+        filters : { slug: { $eq: slug } },
         fields : ['slug','title', 'description', 'publishedAt','author', 'body', 'rate'],
         populate: { image : {fields: 'url'} },
         pagination: { pageSize: 1, withCount: false }
