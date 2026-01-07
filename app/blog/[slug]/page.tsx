@@ -2,6 +2,7 @@ import ShareLinkButton from "@/components/ShareLinkButton";
 import Heading from "@/components/Heading";
 import { getPost, getSlugs } from "@/lib/post";
 import { Metadata } from "next";
+import { JSX } from "react";
 
 // Generate static params for dynamic routes
 export async function generateStaticParams(): Promise<Array<{ slug: string }>> {
@@ -22,7 +23,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
     };
 }
 
-export default async function Home(props: { params: Promise<{ slug: string }> }) {
+export default async function Home(props: { params: Promise<{ slug: string }> }): Promise<JSX.Element> {
     const { slug } = await props.params;
 
     const post = await getPost(slug);

@@ -4,8 +4,8 @@ import { readFile, readdir } from "node:fs/promises";
 import qs  from "qs";
 import { writeFileSync } from "fs";
 
-const baseUrl = process.env.BASE_URL;
-const apiUrl = baseUrl + 'api';
+const baseUrl: string = process.env.BASE_URL;
+const apiUrl:  string = baseUrl + 'api';
 
 export async function getPost(slug: string) : Promise<{ slug: string; title: string; image: string; description: string; date: string; author: string; body: string; rate: string }> {
 
@@ -22,7 +22,7 @@ export async function getPost(slug: string) : Promise<{ slug: string; title: str
     const response: Response = await fetch(url);
     const { data } = await response.json();
     
-    const dataItem = data[0];
+    const dataItem: any = data[0];
 
     if (!dataItem) {
         throw new Error(`Post dengan slug "${slug}" tidak ditemukan`);
@@ -38,7 +38,7 @@ export async function getPost(slug: string) : Promise<{ slug: string; title: str
     const dateString = dataItem.publishedAt ? dataItem.publishedAt.slice(0, "yyyy-MM-DD".length) : '';
     const htmlBody = dataItem.body ? await marked(dataItem.body) : '';
 
-    console.log('Fetched post data:', dataItem);
+    // console.log('Fetched post data:', dataItem);
 
     return {
             slug: dataItem.slug,
