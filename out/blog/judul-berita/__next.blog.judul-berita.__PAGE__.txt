@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+:HL["/images/banjir.png","image"]
+0:{"buildId":"p8k3x_fXhmDeGRmuhkoEI","rsc":["$","$1","c",{"children":[[["$","h1",null,{"className":"text-xl font-bold text-gray-900 mb-6","children":"Berita Banjir Sumatra"}],["$","img",null,{"src":"/images/banjir.png","className":"rounded-lg shadow-md mb-5"}],["$","p",null,{"className":"text-justify px-2 text-sm","children":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sit atque dolores dolor enim ipsum rem? Rem alias, cum dolorum corrupti nihil, aut ea error architecto mollitia omnis autem quidem? Facere possimus ut dolorum doloribus, eligendi cupiditate non a autem! A, voluptatibus quaerat nam vitae, recusandae minima accusantium molestias placeat tempore, dolore nisi commodi ratione. Accusantium quos animi ducimus nobis! Aut, unde illo. Odio provident, in animi nulla culpa tempora reiciendis vitae ipsam debitis ratione earum eum dolorum amet distinctio ad eaque ipsum molestias eligendi laudantium voluptatem optio qui? Quo!"}]],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null

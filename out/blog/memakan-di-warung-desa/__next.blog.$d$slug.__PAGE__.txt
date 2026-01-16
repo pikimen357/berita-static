@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[78749,["/_next/static/chunks/796e69ae18b2784c.js","/_next/static/chunks/ff204f18ad0db109.js"],"default"]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+:HL["http://localhost:1337/uploads/pisgor_d815cb4fe6.jpg","image"]
+0:{"buildId":"p8k3x_fXhmDeGRmuhkoEI","rsc":["$","$1","c",{"children":[[["$","h1",null,{"className":"text-xl font-bold text-gray-900 mb-6","children":"Memakan di Warung Desa"}],["$","div",null,{"className":"flex flex-row gap-5 pb-2 items-end","children":[["$","div",null,{"className":"flex flex-col gap-1","children":[["$","p",null,{"className":"italic text-sm -mb-0.5","children":["2026-01-10"," - ","warino"]}],["$","p",null,{"className":"italic text-sm -mb-1","children":["Rate: ",2]}]]}],["$","$L2",null,{}]]}],["$","img",null,{"src":"http://localhost:1337/uploads/pisgor_d815cb4fe6.jpg","className":"rounded-lg shadow-md mb-5","width":600,"height":400}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"<p>Kegiatan ini bertujuan untuk memajukan UMKM lokal yang tentunya dapat menambah pendapatan daerah</p>\n"},"className":"prose font-roboto max-w-none"}]],[["$","script","script-0",{"src":"/_next/static/chunks/ff204f18ad0db109.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

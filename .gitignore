@@ -1,6 +1,5 @@
 /.next/
 /node_modules/
-/out/
 /scripts/
 .env
 .env.local
